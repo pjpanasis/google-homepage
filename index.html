@@ -2,131 +2,84 @@
 <html class="no-js" lang="">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+	<!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 13px;
-        }
-
-        .container {
-            display: grid;
-            width: 100%;
-            border: 1px dashed red;
-            grid-template-rows: 5fr; 
-            height: 600px;
-        }
-
-        .box1 {
-            
-        }
-        .box {
-            border: 1px dashed purple;
-        }
-
-        a {
-            text-decoration: none;
-            display: inline-block;
-            padding: 0 0 0 15px;
-            color: #000;
-            opacity: 0.75;
-        }
-        
-        .gMail {
-        
-        }
-        .images {
-        
-        }
-
-        .signInButton {
-            background-color: #4387fd;
-            color: #fff;
-            border: 0;
-            border-radius: 2px;
-            padding: 8px 12px;
-            font-weight: bold;
-            font-size: 13px;
-        }
-        
-        .googleLogo {
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!--[if lte IE 9]>
+	<!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="container">
-
-
-        <div class="box1">
-            <a href="#">About</a>
-            <a href="#">Store</a>
-            <a href="#" class="gMail">Gmail</a>
-            <a href="#" class="images">Images</a>
-            <a href="https://www.google.com/intl/en/options/"></a>
-            <button class="signInButton">Sign In</button>
-        </div>
-        <div class="box row2">
-            <img class="googleLogo" src="img/googlelogo_color_272x92dp.png" alt="#">
-        </div>
-        <div class="box row3">
-        </div>
-        <div class="box row4">
-            <button>Google Search
+	<!-- Add your site or application content here -->
+	<div class="container">
+		<div class="box1">
+			<a href="#">About</a>
+			<a href="#">Store</a>
+		</div>
+		<div class="box1a">
+			<a href="#" class="gMail">Gmail</a>
+			<a href="#" class="images">Images</a>
+			<a href="#"><img src="img/apps.jpg" alt="#"></a>
+			<!--<a href="#>"><img src="img/notifications.jpg" alt="#"></a>-->
+			<a href="#" alt="#" class="notifications"></a>
+			<img src="https://lh3.googleusercontent.com/-hDv86DymdBk/AAAAAAAAAAI/AAAAAAAAAAA/APUIFaOwKtdF67sypqE-QIMpPeHRmGv2CA/s32-c-mo/photo.jpg" alt="#">
+		</div>
+		<div class="box2">
+			<img class="googleLogo" src="img/googlelogo_color_272x92dp.png" alt="#">
+		</div>
+		<div class="box3">
+			<input type="search">
+		</div>
+		<div class="box4">
+			<button class="searchButton">
+					Google Search
             </button>
-            <button>
+			<button class="luckyButton">
             I'm Feeling Lucky
             </button>
-        </div>
-        <footer>
+		</div>
+		<footer>
+			<a href="#">Advertising</a>
+			<a href="#">Business</a>
+			<a href="#">Privacy</a>
+			<a href="#">Terms</a>
+			<a href="#">Settings</a>
 
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-
-        </footer>
-    </div>
+		</footer>
+	</div>
 
 
-    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
-    </script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+	<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+	</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-        window.ga = function() {
-            ga.q.push(arguments)
-        };
-        ga.q = [];
-        ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto');
-        ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<script>
+		window.ga = function() {
+			ga.q.push(arguments)
+		};
+		ga.q = [];
+		ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
